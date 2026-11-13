@@ -15,9 +15,7 @@ AE、Blender、图像工具与控制服务依目标环境确认。没有模型�
 
 ## 调用
 
-标准显式入口为`$llc-pv-skill`；`/llc_rb_pv`作为兼容口令识别。此包没有修改宿主命令注册机制；若客户端拦截未注册斜杠命令，用标准技能名或普通文字“使用llc-pv-skill”。宿主支持自定义命令时才另做适配。
-
-标准发行名为`llc-pv-skill`；旧称`llc_pv_skill`仅作兼容文字。目录名、frontmatter和标准调用一致，严格验证无需命名例外。安装看[INSTALL.md](../INSTALL.md)。
+使用`$llc-pv-skill`或“使用llc-pv-skill”调用。安装方法见[INSTALL.md](../INSTALL.md)。
 
 ## 方法来源与运行边界
 
