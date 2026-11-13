@@ -1,0 +1,65 @@
+{
+  "release": "0.4.0-alpha.1",
+  "date": "2026-11-13",
+  "distribution_name": "llc-pv-skill",
+  "components": [
+    {
+      "file": "components/aftereffects-mcp/LICENSE",
+      "sha256": "e1a4cbe23f25b8530eaf57c3de8b8aee685f135a4e48fd3eb97c82036102ae1f",
+      "source_status": "Portable interface reference adapted from upstream MIT documentation; runtime is not bundled"
+    },
+    {
+      "file": "components/aftereffects-mcp/OPERATIONS.md",
+      "sha256": "5fb3fe98bcfe333c659ec8385e587941ec31db4f1729c1ebf8a26061885b8950",
+      "source_status": "Portable interface reference adapted from upstream MIT documentation; runtime is not bundled"
+    },
+    {
+      "file": "components/aftereffects-mcp/references/context-and-helpers.md",
+      "sha256": "0a56902014f3a64a83ab1a8a70b33b59a634e64effb51ae47c16fcd115e5e4d5",
+      "source_status": "Portable interface reference adapted from upstream MIT documentation; runtime is not bundled"
+    },
+    {
+      "file": "components/aftereffects-mcp/references/operations.md",
+      "sha256": "8b953c8d15aa03d37927e48a4f92b26ecaac2653b342d805b2c5f2bfeccb46ff",
+      "source_status": "Portable interface reference adapted from upstream MIT documentation; runtime is not bundled"
+    },
+    {
+      "file": "components/aftereffects-mcp/references/tools.md",
+      "sha256": "858199513e3b9cafe231532d7fc3a275d85c60435382a46eab4ae95f05f9caa6",
+      "source_status": "Portable interface reference adapted from upstream MIT documentation; runtime is not bundled"
+    },
+    {
+      "file": "components/video-watch/LICENSE",
+      "sha256": "08663e4b843799b99298ceddae5a4df4b53b612924bb5b74ab98b3c12b07d926",
+      "source_status": "MIT-licensed local snapshot; official repository and matching LICENSE verified 2026-11-13; vwtools.py matches current main, vw.py differs; historical snapshot commit unverified; OPERATIONS.md adapted locally",
+      "upstream": "https://github.com/CFITCorporation/video-watch-skill"
+    },
+    {
+      "file": "components/video-watch/OPERATIONS.md",
+      "sha256": "b13ecf60ac0db52f4438043071cb96e70a6154c3a40feba0704b28f1b3cfcd92",
+      "source_status": "MIT-licensed local snapshot; official repository and matching LICENSE verified 2026-11-13; vwtools.py matches current main, vw.py differs; historical snapshot commit unverified; OPERATIONS.md adapted locally",
+      "upstream": "https://github.com/CFITCorporation/video-watch-skill"
+    },
+    {
+      "file": "components/video-watch/vw.py",
+      "sha256": "464f0018a3d1cf515246b261a8bfab90d773bbb13c95b065675cb3c2386abba8",
+      "source_status": "MIT-licensed local snapshot; official repository and matching LICENSE verified 2026-11-13; vwtools.py matches current main, vw.py differs; historical snapshot commit unverified; OPERATIONS.md adapted locally",
+      "upstream": "https://github.com/CFITCorporation/video-watch-skill"
+    },
+    {
+      "file": "components/video-watch/vwtools.py",
+      "sha256": "873ec0eec44a37ab88e43893a8f42ede79828d339f47a115b38bc08a93a908ed",
+      "source_status": "MIT-licensed local snapshot; official repository and matching LICENSE verified 2026-11-13; vwtools.py matches current main, vw.py differs; historical snapshot commit unverified; OPERATIONS.md adapted locally",
+      "upstream": "https://github.com/CFITCorporation/video-watch-skill"
+    }
+  ],
+  "external_optional": [
+    {
+      "name": "PSD2Live",
+      "upstream": "https://github.com/tsunehimatoi/psd2live",
+      "license": "GPL-3.0 (verify downloaded version)",
+      "bundled_code": false,
+      "local_workflow_reference": "references/l2d_workflow.md"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "llc-pv-skill"
+  short_description: "PV与MV复刻、可选L2D分件绑定：20秒分段、空间动画、三轮完整对照"
+  default_prompt: "使用 $llc-pv-skill 按参考复刻PV，先核查环境、通读全片、标记音乐章节并逐镜规划。"
+policy:
+  allow_implicit_invocation: true

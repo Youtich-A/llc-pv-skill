@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_id": null,
+  "version": null,
+  "status": "planned",
+  "method": null,
+  "tool": {"name": "PSD2Live", "version": null, "source": "https://github.com/tsunehimatoi/psd2live", "acquisition": null},
+  "canvas": {"width": null, "height": null},
+  "source_layer_count": null,
+  "generated_layer_count": null,
+  "paths": {"source_psd": null, "parts": null, "layout": null, "native_project": null, "neutral_preview": null, "pose_preview": null, "motion_preview": null, "pv_export": null},
+  "neck": {"separate": false, "parent": null, "behind_collar": false, "head_overlap_checked": false, "face_neck_remnant_checked": false, "constraint_type": null},
+  "tests": [],
+  "saved_and_reopened": {"status": "not_run", "evidence": null},
+  "pv_usage": {"shot_ids": [], "fps": null, "duration_seconds": null, "alpha_checked": false, "music_phase": null},
+  "runtime_exports": [],
+  "limitations": [],
+  "notes": "模板；所有路径填资产目录内相对路径。不存在或未验证的内容保持 null/not_run，不把模板状态作为已完成证据。"
+}

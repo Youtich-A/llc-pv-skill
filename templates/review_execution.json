@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "reference_range": null,
+  "segment_range": null,
+  "latest_render_version": null,
+  "shot_ids": [],
+  "rounds": [
+    {
+      "number": 1,
+      "status": "pending",
+      "output_version": null,
+      "reference_invocation": null,
+      "reference_viewed_ranges": [],
+      "output_viewed_ranges": [],
+      "shots": [],
+      "issues": [],
+      "evidence": [],
+      "regression_evidence": null
+    },
+    {
+      "number": 2,
+      "status": "pending",
+      "output_version": null,
+      "reference_invocation": null,
+      "reference_viewed_ranges": [],
+      "output_viewed_ranges": [],
+      "shots": [],
+      "issues": [],
+      "evidence": [],
+      "regression_evidence": null
+    },
+    {
+      "number": 3,
+      "status": "pending",
+      "output_version": null,
+      "reference_invocation": null,
+      "reference_viewed_ranges": [],
+      "output_viewed_ranges": [],
+      "shots": [],
+      "issues": [],
+      "evidence": [],
+      "regression_evidence": null
+    }
+  ]
+}

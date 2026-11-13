@@ -1,0 +1,59 @@
+{
+  "project_file": "project.md",
+  "current_segment": "P01",
+  "current_shot": null,
+  "phase": "environment_check",
+  "environment_file": "local/environment.md",
+  "asset_route": null,
+  "segments": [
+    {
+      "id": "P01",
+      "start_frame": null,
+      "end_frame_exclusive": null,
+      "segment_file": "segments/P01/segment.md",
+      "phase": "intake",
+      "checks": {
+        "script_to_render": "not_run",
+        "source_dynamics": "not_run",
+        "source_camera_space": "not_run",
+        "motion_quality": "not_run",
+        "stutter_quality": "not_run"
+      },
+      "preview_version": null,
+      "user_approval": {
+        "explicit": false,
+        "quote": null,
+        "date": null,
+        "version": null,
+        "scope": null
+      },
+      "handoff_file": null,
+      "music_sections": [],
+      "shot_coverage_per_round": {
+        "1": [],
+        "2": [],
+        "3": []
+      },
+      "uncertain_style_questions": [],
+      "latest_render_version": null
+    }
+  ],
+  "latest_user_constraints": [],
+  "resume_note": "示例状态，实际任务需填真实文件与证据；未收到明确肯定不得写accepted。",
+  "music_sections_file": "shared/music_sections.md",
+  "reference_full_view_per_round": true,
+  "review_priority": "formal_three_rounds_before_optional_spot_checks",
+  "review_waiver": null,
+  "segment_policy": {
+    "target_seconds": 20,
+    "preferred_max_seconds": 25,
+    "exception_reason": null
+  },
+  "review_execution": {
+    "mode": null,
+    "selection_reason": null,
+    "record_file": null,
+    "optional_full_review_after_pass": false
+  },
+  "l2d_assets": []
+}

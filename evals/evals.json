@@ -1,0 +1,98 @@
+{
+  "skill_name": "llc-pv-skill",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "一支120秒角色手书，镜头边界0、12、27、42、55、70、83、101、120秒。只替换主角，用户尚未选择生成还是提供图片。请写此刻能交付的方案与下一步，不得访问真实视频或制作资产；明确哪些信息是给定、哪些未知。",
+      "expected_output": "自然边界约20秒且尽量不超过25秒分段，先问资产路线，后详细素材设计，保持原片其他内容，说明未实际观看；首段通过后续做。",
+      "files": [],
+      "assertions": [
+        "Uses supplied boundaries for roughly 20-second work units preferably <=25 seconds, covering 0–120 without gaps; explains any internal checkpoint exception.",
+        "Requests generation-versus-user-supplied asset route before detailed replacement asset production and preserves non-character scope.",
+        "Does not claim actual video viewing; distinguishes supplied facts and unknowns.",
+        "Makes explicit first-segment acceptance a prerequisite for later production and keeps detailed shot files separate."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "恢复制作：P01范围0–27秒，v2完成自检，用户反馈‘画风可以，但点赞拇指太早、五人缩进被白场盖住，整体有点卡’。P02尚未开始。请提供下一步动作、实际可用的反馈表、一个S005镜头任务文件，以及将来肯定后的精简交接字段。这里只生成Markdown，不制作视频。原视频和工程未提供，不能宣称检查过。",
+      "expected_output": "不得当作整段肯定，不制作P02；补当前镜头自足说明，反馈精确化；第一轮查脚本、后二轮主要原片；动效和卡顿需video-watch证据；肯定后才能交接。",
+      "files": [],
+      "assertions": [
+        "Does not treat approval of art style as acceptance of P01 and does not start P02.",
+        "Provides actionable feedback for early thumb, obscured shrink and stutter, without claiming to have diagnosed unavailable media.",
+        "Produces a self-contained S005 task description with identity, constraints, states, timing unknowns and validation evidence requirements.",
+        "Distinguishes first-pass script-to-render review from second/third-pass source-video review, including video-watch and stutter checks.",
+        "Defers accepted handoff until explicit version-scoped approval and preserves effective constraints, discarded choices and next-segment interface."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "一段72秒文字PV：前奏0–8、主歌8–27、副歌27–49、间奏49–57、副歌57–72；镜头边界0/4/8/16/27/35/42/49/57/64/72。素材已授权使用现成素材，每镜事件很多，原有一份超长总稿。请给脚本组织与首段计划；没有媒体，不可声称看过。",
+      "expected_output": "章节/质量、逐镜及事件子文件按需读、自然分段、首段门禁、真实观看状态。",
+      "files": [],
+      "assertions": [
+        "Overloaded shot events have separate files and on-demand reading",
+        "Intro/interlude/chorus receive enhanced quality while verse remains complete",
+        "Each formal round re-reads the whole reference and reviews the current full segment",
+        "Does not claim actual media viewing"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "90秒参考的P01是0–27秒，v4已导出但只有v3的两个局部小样记录。部分字共同抖而另一些单独飞出，背景换遮挡，约10秒的融化效果不明。处理好然后马上导出。这里只写下一步、待问和真实检查状态，不操作媒体或工程。",
+      "expected_output": "实例/父级/相机分开，询问未知风格化与截图路线，旧小样不转移到新版本，催导出不算取消三轮。",
+      "files": [],
+      "assertions": [
+        "Uses video-watch and multiple scene references to distinguish object and camera motion",
+        "Asks about unclear effect/image/capture route without assuming permission",
+        "Does not replace whole-reference and full-segment reviews with old spot samples",
+        "Urgency does not become a false claim of three completed rounds"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "使用llc-pv-skill，只分析一个24秒角色镜头。它有手肘弯曲、持续摆头和循环头发表演，尚未决定是否做L2D。请说明下一步，不下载、不生成。",
+      "expected_output": "评估并建议PSD2Live，先取得肯定；提供拆分细则建议，未授权不下载安装；分析不启动制作。",
+      "files": [],
+      "assertions": [
+        "Proposes optional PSD2Live route with official URL and waits for affirmative choice",
+        "Prepares questions about where/how to split and who supplies PSD",
+        "Does not claim L2D is necessary for all animation"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "已经同意AI重绘分件并用PSD2Live。转头时脖子从衣服里转出来，已有PSD和原生工程。请写修复与交付计划，不操作真实文件。",
+      "expected_output": "独立脖子、衣领后方、身体父级、下巴隐藏重叠、脸皮残颈清理；姿态测试；保存重开原生工程、同步PSD及素材索引。",
+      "files": [],
+      "assertions": [
+        "Does not repeat already answered AI route question",
+        "Separates neck from face and anchors root to body behind collar",
+        "Tests angle combinations and saves/reopens native project",
+        "Does not claim IK or runtime exports without implementation and tests"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "当前为GPT，三轮均已完整核对最新v8，全部问题关闭，解码和有声检查均有效。没有任何新增改动。请给下一步。",
+      "expected_output": "直接交付并等待用户评价，不自行第四次完整观看；三轮标准未降低。",
+      "files": [],
+      "assertions": [
+        "Delivers without another full-watch or needless reassurance check",
+        "Does not infer user acceptance from internal checks"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "当前模型GLM，第三轮只有两个镜头证据，输出是v4但覆盖表来自v3。请按skill说明此时如何处理，不实际访问媒体。",
+      "expected_output": "strict，第三轮pending；补所有镜头最新版本证据并修复问题；不能填表充数或声称看过；不因品牌减少质量。",
+      "files": [],
+      "assertions": [
+        "Keeps incomplete review pending and enforces complete evidence",
+        "Does not fabricate viewing or count old output as latest",
+        "Keeps same three-round standard across model families"
+      ]
+    }
+  ]
+}
